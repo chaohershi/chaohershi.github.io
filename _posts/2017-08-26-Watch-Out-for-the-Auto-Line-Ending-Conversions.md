@@ -1,3 +1,7 @@
+---
+title: Watch Out for the Auto Line Ending Conversions
+---
+
 Yesterday, I noticed that in some of the files in my local repository, the line breaks were changed from UNIX style (LF) to Windows style (CRLF). The problem occurred after I made some changes on the remote repository (GitHub), and later on pulled them to my local repository using GitHub for Windows.
 
 Further more, if I change those line breaks back and try to commit, those changes will be noticed, but the commit won't go though. A "nothing to commit" error can be found in the generated GitHubLog.txt.

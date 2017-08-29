@@ -1,3 +1,7 @@
+---
+title: Up and Running with Jekyll
+---
+
 These tools have been used to set up my blog:
 
 - [GitHub Pages](https://pages.github.com/)
