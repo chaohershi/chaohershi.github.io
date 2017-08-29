@@ -12,12 +12,12 @@ After some research, it turns out that the problem was caused by a feature (or t
 
 To fix the problem, you need to either open up git shell and input command `git config --global core.autocrlf true` or directly head to `C:\Users\yourname` and modify `.gitconfig`.
 
-![](/images/.gitconfig.png)
+![](/images/gitconfig.png)
 
 ---
 
 Further Reading:
 
-https://github.com/cssmagic/blog/issues/22  
-https://help.github.com/articles/dealing-with-line-endings/  
-https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#__code_core_autocrlf_code
+[A detailed blog over this issue](https://github.com/cssmagic/blog/issues/22)  
+[Git Documentation](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#__code_core_autocrlf_code)  
+[GitHub Documentation](https://help.github.com/articles/dealing-with-line-endings/)
