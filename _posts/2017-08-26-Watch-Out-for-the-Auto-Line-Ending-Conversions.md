@@ -14,8 +14,6 @@ To fix the problem, you need to either open up git shell and input command `git 
 
 Further Reading:
 
-https://github.com/cssmagic/blog/issues/22
-
-https://help.github.com/articles/dealing-with-line-endings/
-
+https://github.com/cssmagic/blog/issues/22  
+https://help.github.com/articles/dealing-with-line-endings/  
 https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#__code_core_autocrlf_code
