@@ -4,7 +4,7 @@ Further more, if I change those line breaks back and try to commit, those change
 
 After some research, it turns out that the problem was caused by a feature (or trap?) of Git. The default setting of Git for Windows (and hence GitHub for Windows) will convert LF to CRLF when checking out text files. When committing, CRLF will be converted back to LF.
 
-![](/images/Git Setup.png)
+![](/images/Git%20Setup.png)
 
 To fix the problem, you need to either open up git shell and input command `git config --global core.autocrlf true` or directly head to `C:\Users\yourname` and modify `.gitconfig`.
 
@@ -13,6 +13,9 @@ To fix the problem, you need to either open up git shell and input command `git 
 ---
 
 Further Reading:
+
 https://github.com/cssmagic/blog/issues/22
+
 https://help.github.com/articles/dealing-with-line-endings/
+
 https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#__code_core_autocrlf_code
