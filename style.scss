@@ -110,6 +110,15 @@ img {
   max-width: 100%;
 }
 
+// Using an image caption in Markdown Jekyll
+// https://stackoverflow.com/a/30366422
+img + em {
+  display: block;
+  text-align: center;
+  font-size: .8rem;
+  color: lightGray;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
