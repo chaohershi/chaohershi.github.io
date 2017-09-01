@@ -96,12 +96,16 @@ And they greatly facilitated the overall development process. These two design t
 
 ![CPU Demo, running at tick frequency 4.1KHz](/images/CPU%20Demo.gif)
 *CPU Demo, running at tick frequency 4.1KHz*
+
 ![Loading ROM to RAM, tick frequency 32Hz](/images/CPU%20Load%20ROM%20to%20RAM.gif)
 *Loading ROM to RAM, tick frequency 32Hz*
+
 ![ALU, tick frequency 32Hz](/images/CPU%20ALU.gif)
 *ALU, tick frequency 32Hz*
+
 ![8B RAM, tick frequency 32Hz](/images/CPU%20RAM.gif)
 *8B RAM, tick frequency 32Hz*
+
 ![CU, tick frequency 32Hz](/images/CPU%20CU.gif)
 *CU, tick frequency 32Hz*
 
