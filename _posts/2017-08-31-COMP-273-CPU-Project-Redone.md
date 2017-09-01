@@ -22,6 +22,7 @@ A classic CPU design, stimulated on [Logisim](http://www.cburch.com/logisim/). L
 - To enjoy the joy of design.
 
 ![Project redone](/images/CPU.png)
+*Project redone*
 
 ## What’s new?
 
