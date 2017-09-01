@@ -62,7 +62,7 @@ Overall, the philosophy of my design is to make the CPU more concise, expandable
 ![](/images/CPU%20CU%20v2.0%20with%20comments.png)
 ![](/images/CPU%20CU%20v3.0.png)
 
-Two suggestion:
+Two suggestions:
 
 - Understand the cause of delay issue
 
