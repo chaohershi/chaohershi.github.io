@@ -81,11 +81,11 @@ And they greatly facilitated the overall development process. These two design t
 
 ![](/images/CPU%20Main%20Labeled.png)
 ![](/images/CPU%20Classical%20CPU%20Design.png)
-![All components](/images/CPU%20&%20omponents.png)
+![All components](/images/CPU%20&%20Components.png)
 
 ## Gifs
 
-![CPU Demo, running at tick frequency 4.1KHz](/images/CPU%20DEMO.gif)
+![CPU Demo, running at tick frequency 4.1KHz](/images/CPU%20Demo.gif)
 ![Loading ROM to RAM, tick frequency 32Hz](/images/CPU%20Load%20ROM%20to%20RAM.gif)
 ![ALU, tick frequency 32Hz](/images/CPU%20ALU.gif)
 ![8B RAM, tick frequency 32Hz](/images/CPU%20RAM.gif)
