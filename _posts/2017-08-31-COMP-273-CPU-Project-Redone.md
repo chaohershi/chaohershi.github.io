@@ -2,13 +2,14 @@
 title: COMP 273 CPU Project Redone
 ---
 
-![](/images/CPU%20Main.gif)
+![CPU](/images/CPU%20Main.gif)
 
 ## What is it?
 
 A classic CPU design, stimulated on [Logisim](http://www.cburch.com/logisim/). Last semester, I took the course COMP 273 Introduction to Computer Systems. It was an interesting course that would “remove all fantasies you have about computers…”. The final project was to build a toy CPU and write a piece of machine code that performs multiplications on that CPU. And thanks to my teammates Robert and Jingxian, our CPU got 20.5/20 points! Later, I redid the whole project on June.
 
-![My team's final project](/images/CPU%20Prototype.png)
+![Final project](/images/CPU%20Prototype.png)
+*Final project*
 
 ## Why redo?
 
@@ -50,7 +51,7 @@ Overall, the philosophy of my design is to make the CPU more concise, expandable
 
 ## Difficulty met
 
-[Gate delay issue](http://www.cburch.com/logisim/docs/2.6.0/en/guide/prop/delays.html).
+[Gate delay issue](http://www.cburch.com/logisim/docs/2.6.0/en/guide/prop/delays.html)
 
 ## My attemps to solve it
 
@@ -59,6 +60,12 @@ Overall, the philosophy of my design is to make the CPU more concise, expandable
 ![](/images/CPU%20CU%20v2.0.png)
 ![](/images/CPU%20CU%20v2.0%20with%20comments.png)
 ![](/images/CPU%20CU%20v3.0.png)
+
+Two suggestion:
+
+- Understand the cause of delay issue
+
+- Make the design as simple as possible
 
 ## Other thoughts
 
@@ -82,14 +89,20 @@ And they greatly facilitated the overall development process. These two design t
 ![](/images/CPU%20Main%20Labeled.png)
 ![](/images/CPU%20Classical%20CPU%20Design.png)
 ![All components](/images/CPU%20&%20Components.png)
+*All components*
 
 ## Gifs
 
 ![CPU Demo, running at tick frequency 4.1KHz](/images/CPU%20Demo.gif)
+*CPU Demo, running at tick frequency 4.1KHz*
 ![Loading ROM to RAM, tick frequency 32Hz](/images/CPU%20Load%20ROM%20to%20RAM.gif)
+*Loading ROM to RAM, tick frequency 32Hz*
 ![ALU, tick frequency 32Hz](/images/CPU%20ALU.gif)
+*ALU, tick frequency 32Hz*
 ![8B RAM, tick frequency 32Hz](/images/CPU%20RAM.gif)
+*8B RAM, tick frequency 32Hz*
 ![CU, tick frequency 32Hz](/images/CPU%20CU.gif)
+*CU, tick frequency 32Hz*
 
 ## Credits
 
