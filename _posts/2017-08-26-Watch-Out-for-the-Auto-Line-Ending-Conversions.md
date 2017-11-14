@@ -17,9 +17,6 @@ To fix the problem, you need to either open up git shell and input command `git 
 ---
 
 Further Reading:
-
-[A detailed blog over this issue](https://github.com/cssmagic/blog/issues/22)
-
-[Git documentation](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#__code_core_autocrlf_code)
-
-[GitHub documentation](https://help.github.com/articles/dealing-with-line-endings/)
+- [A detailed blog over this issue](https://github.com/cssmagic/blog/issues/22)
+- [Git documentation](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration#__code_core_autocrlf_code)
+- [GitHub documentation](https://help.github.com/articles/dealing-with-line-endings/)

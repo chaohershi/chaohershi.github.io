@@ -13,7 +13,7 @@ Let's say we want to obfuscate the following mailto link:
 
 ## Encode with JavaScript
 Basic version:
-```javascript
+``` javascript
 <script type="text/javascript">
   var username = "example";
   var hostname = "email.com";
@@ -22,7 +22,7 @@ Basic version:
 ```
 
 A cooler version using [ROT13](https://en.wikipedia.org/wiki/ROT13) alogrithm:
-```javascript
+``` javascript
 <script type="text/javascript">document.write("<n uers="znvygb:rknzcyr@rznvy.pbz">Fraq n zrffntr</n>".replace(/[a-zA-Z]/g, 
   function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
 </script>
