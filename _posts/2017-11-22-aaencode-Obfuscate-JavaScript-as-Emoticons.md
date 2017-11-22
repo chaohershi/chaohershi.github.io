@@ -1,5 +1,5 @@
 ---
-title: aaencode: Obfuscate JavaScript as Emoticons
+title: aaencode - Obfuscate JavaScript as Emoticons
 ---
 
 ```javascript
