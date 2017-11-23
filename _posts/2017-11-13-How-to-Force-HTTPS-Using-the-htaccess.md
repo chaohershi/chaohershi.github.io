@@ -13,7 +13,7 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 Code that does the same job but written in slightly different syntax:
 
 ```apache
-RewriteEngine On 
+RewriteEngine on 
 RewriteCond %{SERVER_PORT} 80 
 RewriteRule ^(.*)$ https://%{SERVER_NAME}/$1 [L,R=301]
 ```
