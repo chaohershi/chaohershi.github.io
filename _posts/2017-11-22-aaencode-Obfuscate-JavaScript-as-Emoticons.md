@@ -10,8 +10,8 @@ The above code is equivalent to `alert("Hello, JavaScript")`. You can try it out
 
 ---
 
-Origin:
-- aaencode was written by [Yosuke HASEGAWA](https://twitter.com/hasegawayosuke) for research purposes.
+Source:
+- aaencode was written by [Yosuke HASEGAWA](https://twitter.com/hasegawayosuke) in [2010](http://d.hatena.ne.jp/hasegawayosuke/20100517).
 
 Try it Out:
 - [aaencode - Encode any JavaScript program to Japanese style emoticons (^_^)](http://utf-8.jp/public/aaencode.html)
