@@ -10,7 +10,7 @@ After some research, it turns out that the problem was caused by a feature (or t
 
 ![](/images/Git%20Setup.png)
 
-To fix the problem, you need to either open up git shell and input command `git config --global core.autocrlf true` or directly head to `C:\Users\yourname` and modify `.gitconfig`.
+To fix the problem, you need to either open up git shell and input command `git config --global core.autocrlf false` or directly head to `C:\Users\yourname` and modify `.gitconfig`.
 
 ![](/images/gitconfig.png)
 
