@@ -1,5 +1,5 @@
 ---
-title: COMP 273 CPU Project Redone
+title: COMP 273 CPU Project Redo
 ---
 
 ![CPU](/images/CPU%20Main.gif)
