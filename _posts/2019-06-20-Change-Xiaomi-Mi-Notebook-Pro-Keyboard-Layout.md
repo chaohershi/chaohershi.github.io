@@ -25,7 +25,7 @@ title: 小米笔记本Pro键帽及键位位置调整
 
 完成后重启电脑，即可将End、PgUp、PgDn映射为PgUp、PgDn、End。
 
-[点我下载注册表文件](https://chaohershi.github.io/images/Remap_Keys_from_End_PgUp_PgDn_to_PgUp_PgDn_End.zip)
+[点我下载注册表文件](https://chaohershi.github.io/assets/Remap_Keys_from_End_PgUp_PgDn_to_PgUp_PgDn_End.zip)
 
 ## 完成效果
 
