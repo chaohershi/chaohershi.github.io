@@ -9,16 +9,16 @@ awesomium web-browser framework This view has crashed!
 
 You only need `Awesomium.dll` from awesomium SDK 1.6.6.
 
-Replace `C:\Program Files (x86)\MarkdownPad 2\Awesomium.dll` with `C:\Program Files (x86)\Khrona LLC\Awesomium SDK\1.6.6\build\bin\release\Awesomium.dll`
+Replace `C:\Program Files (x86)\MarkdownPad 2\Awesomium.dll` with `C:\Program Files (x86)\Khrona LLC\Awesomium SDK\1.6.6\build\bin\release\Awesomium.dll` and restart MarkdownPad.
 
-Download the required `Awesomium.dll` [here](https://chaohershi.github.io/assets/Awesomium.zip).
+Download the required `Awesomium.dll` [here](https://chaohershi.github.io/assets/Awesomium.dll.zip).
 
 ## Could not create SSL/TLS secure channel.
 
 An error occurred while processing GitHub Flavored Markdown.
 The request was aborted: Could not create SSL/TLS secure channel.
 
-Use the following registry change.
+Use the following registry changes and restart MarkdownPad.
 
 ```
 Windows Registry Editor Version 5.00
