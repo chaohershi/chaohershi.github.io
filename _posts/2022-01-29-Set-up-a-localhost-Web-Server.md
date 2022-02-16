@@ -6,9 +6,9 @@ Two approaches: DNS approach and hosts file approach. The DNS approach is more c
 
 ## DNS Approach
 
-### 1. Enable virtual host alias
+### 1. Enable virtual host alias and virtual host config
 
-In Apache `conf` folder, open `httpd.conf`, uncomment `LoadModule vhost_alias_module modules/mod_vhost_alias.so`.
+In Apache `conf` folder, open `httpd.conf`, uncomment `LoadModule vhost_alias_module modules/mod_vhost_alias.so`. Also uncomment `Include conf/extra/httpd-vhosts.conf`.
 
 ### 2. Config virtual host
 
@@ -41,7 +41,11 @@ In the hosts file, add the following line: `127.0.0.1 site1.localhost`
 
 Repeat for other virtual servers.
 
-### 2. Config virtual host
+### 2. Enable virtual host config
+
+In Apache `conf` folder, open `httpd.conf`, uncomment `Include conf/extra/httpd-vhosts.conf`.
+
+### 3. Config virtual host
 
 In Apache `conf\extra` folder, open `httpd-vhosts.conf`, add the following lines:
 
@@ -55,7 +59,7 @@ In Apache `conf\extra` folder, open `httpd-vhosts.conf`, add the following lines
 </VirtualHost>
 ```
 
-### 3. Access the virtual host
+### 4. Access the virtual host
 
 Create a folder `site1` under the virtual root `C:\Users\[user]\Documents`. Place an `index.html` file in the folder. It can then be access via `site1.localhost`.
 
