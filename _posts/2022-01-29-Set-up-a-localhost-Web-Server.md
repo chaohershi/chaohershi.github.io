@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Set up a localhost Web Server for Faster Website Development
 ---
 
